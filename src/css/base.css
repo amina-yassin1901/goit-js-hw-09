@@ -16,6 +16,32 @@
   -webkit-text-size-adjust: 100%;
 }
 
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 body {
   display: flex;
   flex-direction: column;
