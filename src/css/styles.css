@@ -46,3 +46,67 @@
 .sl-wrapper {
   background-color: rgba(46, 47, 66, 0.8);
 }
+
+
+.feedback-form {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #f9f9f9;
+  padding: 40px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.input{
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+  padding: 10px;
+  resize: none;
+}
+
+.input:hover {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.input:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 8px rgba(0, 86, 179, 0.5);
+  outline: none;
+}
+
+.btn {
+  padding: 10px 20px;
+  align-content: flex-start;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  background-color: #007bff;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+
