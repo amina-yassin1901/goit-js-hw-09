@@ -28,7 +28,6 @@ const onFormFieldInput = event => {
     const fieldName = formFieldEl.name;
     formData[fieldName] = fieldValue;
     localStorage.setItem('feedback-form-state', JSON.stringify(formData));
-    console.log(formData);
 };
 const onFeedbackFormSubmit = event => {
     event.preventDefault();
@@ -40,6 +39,7 @@ const onFeedbackFormSubmit = event => {
     
     event.currentTarget.reset();
     localStorage.removeItem('feedback-form-state');
+    formData = { email: '', message: '' };
 };
 
 feedbackForm.addEventListener('input', onFormFieldInput);
